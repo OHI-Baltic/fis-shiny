@@ -30,7 +30,7 @@ ui <- fluidPage(
     mainPanel(
       fluidRow(
         splitLayout(
-          cellWidths = c("47%", "47%"), 
+          cellWidths = c("50%", "50%"), 
           plotOutput("scoreBcurve"), 
           plotOutput("scoreFcurve")
         )
