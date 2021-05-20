@@ -12,7 +12,7 @@ gridFscore <- expand.grid(
 
 pal <- tibble(
   stock = c("cod_SDs22_24", "cod_SDs24_32", "herring_SD_28.1", "herring_SDs20_24", "herring_SDs25_29_32", "herring_SDs30_31"),
-  values = c("lightsteelblue", "navy", "coral", "tomato2", "firebrick4", "salmon")
+  values = c("lightsteelblue", "navy", "coral", "orchid", "firebrick", "thistle4")
 )
 
 calc_Bscores <- function(dataset, lowerB = 0.95, upperB1 = 1.3, upperB2 = 5){
